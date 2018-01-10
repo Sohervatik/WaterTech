@@ -116,11 +116,11 @@ contract ERC20Token is StandardToken {
 
     function ERC20Token(
         ) {
-        balances[msg.sender] = 50000000;               // Give the creator all initial tokens (100000 for example)
-        totalSupply = 100000000;                        // Update total supply (100000 for example)
+        balances[msg.sender] = 300000000000000000;               // Give the creator all initial tokens (100000 for example)
+        totalSupply = 1000000000000000000;                        // Update total supply (100000 for example)
         name = "WaterTech";                                   // Set the name for display purposes
-        decimals = 0;                            // Amount of decimals for display purposes
-        symbol = "WTR";                               // Set the symbol for display purposes
+        decimals = 10;                            // Amount of decimals for display purposes
+        symbol = "WATR";                               // Set the symbol for display purposes
     }
 
     /* Approves and then calls the receiving contract */
